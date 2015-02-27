@@ -10,13 +10,34 @@ html{
 	box-sizing: inherit;
 }
 
+/*Header*/
+h1{
+	background-color: cyan;
+}
+
+h2{
+	background-color: #00f;
+}
 
 /*Nav*/
+nav ul{
+	display: inline;
+	list-style-type:none;
+	background-color: #f00;
+}
 
+nav ul li{
+	background-color: green;
+width:30%;
+float: left;
+}
 
 
 /*Main*/
 
+main{
+	background-color: pink;
+}
 
 /*Aside*/
 
@@ -26,3 +47,7 @@ html{
 
 
 /*Foot*/
+
+footer{
+	background-color: yellow;
+}
