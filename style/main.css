@@ -13,8 +13,12 @@ html{
 }
 
 /*Header*/
-h1{
-	background-color: cyan;
+h1{ background-color: #cd5b34;}
+
+h2{
+	background-color: rgba(205,91,52,0.8);
+	line-height: 3em;
+	margin: 0;
 }
 
 h1, h2{
@@ -32,11 +36,11 @@ img{
 nav ul{
 	display: inline;
 	list-style-type:none;
-	background-color: #f00;
+
 }
 
 nav ul li{
-	background-color: green;
+
 width:30%;
 float: left;
 }
@@ -44,13 +48,19 @@ float: left;
 
 /*Main*/
 
+#wrapper{
+
+	margin: 0;
+	padding: 0;
+}
+
 main{
-	background-color: pink;
+
 	overflow: hidden;
 }
 
 #famous-cereals{
-	background-color: green;
+
 	overflow: hidden;
 	padding: 0;
 }
@@ -93,13 +103,15 @@ figcaption{
 .rice figcaption, .oats figcaption{
 	background-color:orange;
 	box-sizing: border-box;
-	width: 30%;
+	margin; 0;
+	text-align:  center;
 }
 
 .rice, .oats{
 	float:left;
 	width: 50%;
 	margin: 0;
+
 }
 
 /*Foot*/
