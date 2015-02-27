@@ -21,7 +21,13 @@ h2{
 	background-color: #00f;
 }
 
+img{
+	width: 100%;
+}
+
 /*Nav*/
+
+
 nav ul{
 	display: inline;
 	list-style-type:none;
@@ -45,11 +51,9 @@ main{
 #famous-cereals{
 	background-color: green;
 	overflow: hidden;
+	padding: 0;
 }
 
-
-
-/*Aside*/
 
 
 /*IMG*/
@@ -73,11 +77,25 @@ border: 1px solid #ccc;
 
 .corn-image{
 	width: 100%;
+	margin: 0;
 }
 
-.rice img, .oats img{
-width: 50%;
-float: left;
+
+figcaption{
+	text-align: center;
+	margin: 0;
+}
+
+.rice figcaption, .oats figcaption{
+	background-color:orange;
+	box-sizing: border-box;
+	width: 30%;
+}
+
+.rice, .oats{
+	float:left;
+	width: 50%;
+	margin: 0;
 }
 
 /*Foot*/
