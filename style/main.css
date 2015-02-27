@@ -17,8 +17,9 @@ h1{
 	background-color: cyan;
 }
 
-h2{
-	background-color: #00f;
+h1, h2{
+ color: #fff;
+ text-align: center;
 }
 
 img{
@@ -80,6 +81,9 @@ border: 1px solid #ccc;
 	margin: 0;
 }
 
+figure{
+	margin: 0;
+}
 
 figcaption{
 	text-align: center;
