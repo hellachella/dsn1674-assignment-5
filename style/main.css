@@ -2,6 +2,8 @@
 
 html{
 	box-sizing: border-box;
+	font-family: Merriweather, serif;
+	line-height: 1.5em;
 }
 
 
@@ -39,12 +41,30 @@ main{
 	background-color: pink;
 }
 
+.p-2{
+	clear: left;
+}
+
+
 /*Aside*/
 
 
 /*IMG*/
 
+.grain-image {
+	width: 30%;
+	float: left;
+	margin-right: 1em;
+}
 
+.quinoa-image, .cereals-image{
+	width: 25%;
+	float right;
+}
+
+.q2{
+	clear: right;
+}
 
 /*Foot*/
 
