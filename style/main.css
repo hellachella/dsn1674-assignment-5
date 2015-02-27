@@ -39,11 +39,10 @@ float: left;
 
 main{
 	background-color: pink;
+	overflow: hidden;
 }
 
-.p-2{
-	clear: left;
-}
+
 
 
 /*Aside*/
@@ -59,11 +58,12 @@ main{
 
 .quinoa-image, .cereals-image{
 	width: 25%;
-	float right;
+float: right;
 }
 
 .q2{
-	clear: right;
+	clear:both;
+	margin-top: 1em;
 }
 
 /*Foot*/
