@@ -1,0 +1,28 @@
+/*Defaults*/
+
+html{
+	box-sizing: border-box;
+}
+
+
+*, *::before, *::after{
+
+	box-sizing: inherit;
+}
+
+
+/*Nav*/
+
+
+
+/*Main*/
+
+
+/*Aside*/
+
+
+/*IMG*/
+
+
+
+/*Foot*/
