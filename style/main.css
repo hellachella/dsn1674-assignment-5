@@ -16,9 +16,11 @@ html{
 header{
 	background-color: #cd5b34;
 	overflow: hidden;
+
 }
 
-h1{ background-color: #cd5b34;
+h1, footer{
+background-color: #cd5b34;
 line-height: 2em;
 margin: 0;
 }
@@ -37,6 +39,13 @@ h1, h2{
 img{
 	width: 100%;
 }
+
+h1{
+	background: url(../images/grain-left.svg), url(../images/grain-right.svg);
+	background-position: left , right;
+	background-repeat: no-repeat;
+}
+
 
 /*Nav*/
 
@@ -175,6 +184,6 @@ figcaption{
 /*Foot*/
 
 footer{
-	background-color: orange;
+	text-align: center;
 	clear: both;
 }
