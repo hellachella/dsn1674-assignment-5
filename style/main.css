@@ -4,6 +4,8 @@ html{
 	box-sizing: border-box;
 	font-family: Merriweather, serif;
 	line-height: 1.5em;
+	margin 0;
+	padding; 0;
 }
 
 
@@ -60,17 +62,16 @@ float: left;
 	width: 100%;
 	margin: 0;
 	padding: 0;
-box-sizing: border-box;
-
+ box-sizing: border-box;
 }
 
 nav li{
-border: .5px solid grey;
-
+border: 1px solid rgba(0,0,0,0.2);
+border-collapse: collapse;
 margin: 0;
 padding: 0.5em;
 float: left;
-width: 33.33%;
+width:  calc(100% / 3);
 text-align: center;
 box-sizing: border-box;
 
@@ -80,7 +81,6 @@ box-sizing: border-box;
 /*Main*/
 
 #wrapper{
-
 	margin: 0;
 	padding: 0;
 }
@@ -142,6 +142,7 @@ float: left;
 	width: 30%;
 float: right;
 border: 1px solid #ccc;
+margin: 0 1em;
 }
 
 .q2{
