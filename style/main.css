@@ -50,6 +50,13 @@ h1{
 	font-size: 2em;
 }
 
+a, a:link, a:visited{
+	color:#fff;
+	text-decoration:none;
+}
+a:hover{
+}
+
 
 /*Nav*/
 
@@ -77,6 +84,9 @@ box-sizing: border-box;
 
 }
 
+li:hover{
+	background-color: #d98156;
+}
 
 /*Main*/
 
@@ -193,4 +203,6 @@ figcaption{
 footer{
 	text-align: center;
 	clear: both;
+	line-height: 3em;
+	color: #fff;
 }
